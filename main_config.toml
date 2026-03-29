@@ -5,8 +5,8 @@ version = "869"
 type = "wechat"
 
 [WechatAPIServer]
-host = "95279528.xyz"
-port = 8094
+host = "127.0.0.1"
+port = 8099
 mode = "debug"
 admin-key = "xiao"
 redis-host = "127.0.0.1"
@@ -14,7 +14,7 @@ redis-port = 6379
 redis-password = ""
 redis-db = 0
 enable-websocket = true
-ws-url = "ws://95279528.xyz:8094/ws/GetSyncMsg"
+ws-url = "ws://127.0.0.1:8099/ws/GetSyncMsg"
 enable-rabbitmq = true
 rabbitmq-host = "127.0.0.1"
 rabbitmq-port = 5672
